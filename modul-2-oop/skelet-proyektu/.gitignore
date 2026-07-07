@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Віртуальні середовища
+.venv/
+venv/
+
+# Секрети / конфіг середовища
+.env
+
+# Кеші інструментів
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/

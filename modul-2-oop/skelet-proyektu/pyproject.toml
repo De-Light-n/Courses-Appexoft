@@ -1,0 +1,32 @@
+[project]
+name = "taskapp"
+version = "0.1.0"
+description = "Навчальний скелет Python-проєкту: repository pattern + сервісний шар"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["ruff", "pytest"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+# --- Лінтер / форматер Ruff ---
+# select — які групи правил вмикаємо:
+#   E  pycodestyle (стиль), F pyflakes (помилки), I isort (порядок імпортів),
+#   UP pyupgrade (сучасний синтаксис), B flake8-bugbug (типові баги)
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+# --- pytest ---
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
