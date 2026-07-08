@@ -6,6 +6,7 @@
 ## 📓 Матеріали
 - **Урок 1:** [Основи SQL (реляційні БД, таблиці, запити, JOIN, транзакції, ін'єкції)](lektsiya-1-sql-osnovy.ipynb) · [домашнє завдання](domashnie-zavdannia-lektsiya-1.ipynb)
 - **Урок 2:** [Бази даних із Python (ACID, індекси, EXPLAIN, psycopg2, SQLAlchemy, CRUD, alembic)](lektsiya-2-bd-z-python-sqlalchemy.ipynb) · [домашнє завдання](domashnie-zavdannia-lektsiya-2.ipynb)
+- **🎁 Бонус:** [Просунуті теми (підзапити, UNION, типи індексів, часткові індекси, UUID, FOR UPDATE, connection pooling, lazy vs eager)](bonus-prosunuti-temy.ipynb)
 
 ## Програма модуля
 
