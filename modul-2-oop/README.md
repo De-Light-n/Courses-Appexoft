@@ -20,6 +20,8 @@
 - Абстракція (abstraction), `abc`
 - MRO (Method Resolution Order)
 - `super()`
+- Магічні (dunder) методи: `__str__`/`__repr__`, `__eq__`/`__hash__`, `__lt__`, `__len__`, `__getitem__`, `__contains__`, `__call__`, `__add__`, `__slots__`/`__new__`
+- 🎯 Що спитають на співбесіді про класи (+ класичні пастки)
 
 ### Урок 2 — Архітектура та продакшн-практики
 - `@property`
