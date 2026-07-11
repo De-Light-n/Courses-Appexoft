@@ -30,9 +30,12 @@
 | **3** | [Бази даних та SQL](modul-3-bazy-danykh/README.md) | реляційні/NoSQL, SQL, JOIN, транзакції, індекси, SQLAlchemy ORM | 2 + бонус |
 | **4** | [Django REST Framework](modul-4-django-rest-framework/README.md) | REST API, serializers, ViewSets, автентифікація, permissions | 2 + бонус |
 
-### 🔧 Допоміжний розділ (без номера, проходь паралельно)
+### 🔧 Допоміжні розділи (без номера, проходь паралельно)
 - [**Гіт та інше**](git-ta-inshe/README.md) — Git (гілки, merge/rebase, конфлікти) та якість
   коду (PEP 8, type hints, лінтери, pre-commit). Потрібен з першої ж домашки.
+- [**Алгоритми та структури даних**](algorytmy-ta-struktury-danykh/README.md) — університетський
+  фундамент: складність (Big-O), структури даних, сортування, графи, DP. Основа технічних співбесід.
+  (6 уроків + домашка; найкраще після Модуля 1.)
 
 ---
 
