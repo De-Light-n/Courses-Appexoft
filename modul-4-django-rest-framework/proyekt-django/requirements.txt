@@ -1,0 +1,4 @@
+# Залежності проєкту. Встановити: pip install -r requirements.txt
+Django==4.2.30
+djangorestframework==3.16.1
+django-filter==25.1
