@@ -30,3 +30,7 @@ class InMemoryTaskRepository(AbstractTaskRepository):
 
     def list(self) -> list[Task]:
         return list(self._items.values())
+
+    def delete(self, task_id: int) -> None:
+        if task_id in self._items:
+            del self._items[task_id]
