@@ -44,6 +44,12 @@ def test_complete_missing_task_raises():
         raise AssertionError("мало б кинути TaskNotFoundError")
     except TaskNotFoundError:
         pass
+    
+def test_delete_task():
+    service = make_service()
+    task = service.create_task("Вивчити пайтон")
+    service.delete_task(task.id)
+    assert service._repo.get(task.id) is None
 
 
 if __name__ == "__main__":
@@ -52,4 +58,5 @@ if __name__ == "__main__":
     test_titles_are_validated()
     test_complete_task()
     test_complete_missing_task_raises()
+    test_delete_task()
     print("Усі тести пройдено ✅")

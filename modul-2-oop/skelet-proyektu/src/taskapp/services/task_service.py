@@ -33,3 +33,9 @@ class TaskService:
 
     def all_tasks(self) -> list[Task]:
         return self._repo.list()
+
+    def delete_task(self, task_id: int) -> None:
+        task = self._repo.get(task_id)
+        if task is None:
+            raise TaskNotFoundError(f"Завдання {task_id} не знайдено")
+        self._repo.delete(task_id)
