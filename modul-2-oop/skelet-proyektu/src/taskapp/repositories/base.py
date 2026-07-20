@@ -29,3 +29,8 @@ class AbstractTaskRepository(ABC):
     def list(self) -> list[Task]:
         """Повернути всі завдання."""
         raise NotImplementedError
+
+    @abstractmethod
+    def delete(self, task_id: int) -> None:
+        """Видалити завдання за id або None якщо не знайдено."""
+        raise NotImplementedError
